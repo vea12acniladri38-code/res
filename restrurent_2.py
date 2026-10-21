@@ -7,7 +7,7 @@ api_key = st.secrets["GOOGLE_API_KEY"]
 client = genai.Client(api_key=api_key)
 
 st.set_page_config(
-    page_title="🍽️ AI Restaurant Finder"
+    page_title="🍽️ AI Restaurant Finder",
     page_icon="🍽️"
 )
 
